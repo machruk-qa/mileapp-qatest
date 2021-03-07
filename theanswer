@@ -1,0 +1,14 @@
+kesalahan besar QA
+1. Terdapat bugs yang lolos, hingga di temukan pada production, ini bisa juga terjadi karena miskin nya test cases pada skenario tes, miskinnya test cases karena tidak memahami produk/fitur/atau sistem secara penuh….. solusinya, intens berdiskusi dan bertanya kepada product manager, sampai betul2 memahami secara menyeluruh untuk memperkaya skenario tes.
+2. Tidak mengupdate skenario tes, karena fitur atau aplikasi pasti berkembang, sebaiknya terus update skenario tes yang sudah ada.
+3. Tidak menyertakan steps to reproduce ketika reporting, ini akan menyulitkan developer untuk reproduce bugs yang kita temukan, sebaiknya sertakan steps to reproduce juga info lengkap, seperti environment nya dll
+
+
+
+
+Point terpenting dalam menganalisa dan membuat skenario test
+1. Penggunaan bahasa yang mudah dipahami tester lain, bahkan developer, bahasa yang mudah dipahami lebih disukai developer
+2. Langkah pengetesan tidak rumit, pakai precondition untuk menyederhanakan.
+3. Menggunakan perspektif end user yang awam, sehingga akan lebih detail
+4. Tester harus paham tentang produk/sistem/fitur yang dibuat, sehingga memperkaya test cases pada  skenario tes. misalkan pada fitur, jika tester memahami secara penuh, maka akan terbayang juga impact yang akan muncul karena penambahan fitur tersebut, sehingga bisa dibuat kan test cases nya.
+5. think outside of the box dalam pengujian, ini akan mudah jika kita sangat memahami  bagaimana aplikasi/fitur itu seharusnya berjalan.
